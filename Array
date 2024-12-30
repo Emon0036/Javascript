@@ -1,0 +1,82 @@
+function generateUniqueId() {
+//     const timestamp = Date.now().toString(36); // Convert the current timestamp to base-36
+//     const randomString = Math.random().toString(36).substring(2, 10); // Generate a random string
+//     return `${timestamp}-${randomString}`;
+// }
+
+// const student = [
+//     {id:'m55d7bvu-9t9277ga',
+//      name:'Sohed',
+//      email:'soheb@gmail.com',
+//     },
+//       { id:'m55d7bvu-rg7v1d7d',
+//         name:'Soheb',
+//         email:'soheb@gmail.com',
+//        },
+//        {id: 'm55d7bvu-9fh4kqj6',
+//         name:'Sohek',
+//         email:'soheb@gmail.com',
+//        },
+//        {id:'m55d7bvu-d2dr55qo',
+//         name:'Sohej',
+//         email:'soheb@gmail.com',
+//        },
+// ]
+
+// console.log(student);
+
+// //Add element in the array
+// student.push({
+//     id:generateUniqueId(),
+//     name:'Anish',
+//     email:'anish@gmail.com',
+// });
+
+// console.log(student);
+
+// delete element from the array
+
+// const arr1 = student.filter((v) => v.id !='m55d7bvu-rg7v1d7d' );
+
+// console.log(arr1);
+
+// //I have to use splice for delete item from the array
+
+// const index = student.findIndex((v) => v.id =='m55d7bvu-9fh4kqj6');
+
+// const arr1 = student.splice(index,1);
+
+// console.log(student);
+
+// const updateInfo = {
+//     name:'Sokia',
+//     email:'sokina@gmail.com',
+// }
+
+// student[index]={
+//     ...student[index],
+//     ...updateInfo,
+// }
+
+// student[index].name='Sabrina';
+
+
+// console.log(student);
+
+
+// const arr2 = student.forEach((v) => {
+//     console.log(v.name);
+// });
+// //for in loop just give me the index number
+// for(let v in student){
+//     console.log(v);
+// }
+// // for of loop gives me the total array 
+// for(let v of student){
+//     console.log(v);
+// }
+
+
+
+
+
