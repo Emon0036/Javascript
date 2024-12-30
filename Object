@@ -1,0 +1,81 @@
+function generateUniqueId() {
+    const timestamp = Date.now().toString(36); // Convert the current timestamp to base-36
+    const randomString = Math.random().toString(36).substring(2, 10); // Generate a random string
+    return `${timestamp}-${randomString}`;
+}
+
+const student = {
+    'm55d7bvu-9t9277ga':{id:'m55d7bvu-9t9277ga',
+     name:'Sohed',
+     email:'soheb@gmail.com',
+    },
+      'm55d7bvu-rg7v1d7d':{ id:'m55d7bvu-rg7v1d7d',
+        name:'Soheb',
+        email:'soheb@gmail.com',
+       },
+      'm55d7bvu-9fh4kqj6': {id: 'm55d7bvu-9fh4kqj6',
+        name:'Sohek',
+        email:'soheb@gmail.com',
+       },
+      'm55d7bvu-d2dr55qo': {id:'m55d7bvu-d2dr55qo',
+        name:'Sohej',
+        email:'soheb@gmail.com',
+       },
+    }
+
+  // add new data into student
+
+//   const Id = generateUniqueId();
+
+//   const newInfo = {
+//     id:Id,
+//     name:'Ronjit mallik',
+//     email:'ronjit@gmail.com',
+//   }
+
+//   student[newInfo.id] = newInfo;
+//   console.log(student);
+  
+// update info into the object
+
+const thatId = 'm55d7bvu-rg7v1d7d';
+
+// const updatedInfo = {
+//     name:'Puspa',
+//     email:'puspa@gmail.com',
+
+// }
+
+// student[thatId]={
+//     ...student[thatId],
+//     ...updatedInfo,
+// }
+
+// Delete
+
+// delete student[ 'm55d7bvu-9t9277ga'];
+
+// console.log(student);
+
+
+// travarse in the object using object.values and object.keys
+
+// Object.keys(student).forEach((key)=>{
+//     const object = student[key];
+//     console.log(object);
+
+// } 
+    
+// )
+
+// Object.values(student).forEach((wholeObject)=>{
+   
+//     console.log(wholeObject);
+// } 
+    
+// )
+
+
+
+
+
